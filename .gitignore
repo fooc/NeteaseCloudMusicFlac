@@ -1,2 +1,4 @@
 /songs_dir/
 comment_main.py
+
+*.pyc
