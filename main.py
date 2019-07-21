@@ -63,6 +63,7 @@ def set_logger():
 def fetch_song_list(url):
     _id = re.search(r'id=(\d+)', url).group(1)
     url = "http://music.163.com/playlist?id={0}".format(_id)
+           # https://music.163.com/playlist?id=2879010034&userid=5802165
     r = requests.get(url, headers=HEADERS)
     contents = r.text
     song_list_name = re.search(r"<title>(.+)</title>", contents).group(1)[:-13]
