@@ -10,7 +10,7 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36'
 }
 
-search_url = 'http://www.wsyyxz.com/e/search/index.php'
+search_url = 'http://tool.liumingye.cn/music/'
 
 
 def download_song(song_url):
